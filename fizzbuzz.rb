@@ -14,3 +14,5 @@ elseif num%15 == 0
   
 end
 end
+
+fizzbuzz(2)
