@@ -1,11 +1,16 @@
+def fizzbuzz(num)
+
 puts "number?"
 num = gets.chomp
 
 if num%3 == 0
-  puts "Fizz"
+  return "Fizz"
   
 elseif num%5 == 0
-  puts "Buzz"
+  return "Buzz"
 
 elseif num%15 == 0
-  puts "FizzBuzz"
+  return "FizzBuzz"
+  
+end
+end
